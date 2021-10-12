@@ -64,7 +64,7 @@ header {
   align-items: center;
   background-color: white;
   height: 45px;
-  padding: 30px;
+  padding: 30px 0;
   box-shadow: 0 0.5px 10px black;
   .inner {
     position: relative;
