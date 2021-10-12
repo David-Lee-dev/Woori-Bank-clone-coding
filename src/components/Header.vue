@@ -36,7 +36,7 @@ export default {
   },
   data() {
     return {
-      clickMenu: true,
+      clickMenu: false,
       menus: [
         "인터넷뱅킹",
         "상품(예금/대출)",
@@ -56,6 +56,10 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   background-color: white;
