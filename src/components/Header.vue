@@ -69,11 +69,11 @@ header {
     display: flex;
     justify-content: space-between;
     .menu {
-      font-weight: bold;
+      font-weight: 600;
       ul {
         display: flex;
         li {
-          margin: 0 23px;
+          margin: 0 20px;
           font-size: 18px;
           a {
             color: black;
