@@ -285,6 +285,24 @@
           </div>
         </div>
       </div>
+      <div class="pagination">
+        <img v-bind:src="imageUrl" @click="togglePlay" />
+        <div
+          class="page-dot"
+          :class="curPage === 'first' ? 'active' : ''"
+          @click="[(curPage = 'first'), (curIndex = 0)]"
+        ></div>
+        <div
+          class="page-dot"
+          :class="curPage === 'second' ? 'active' : ''"
+          @click="[(curPage = 'second'), (curIndex = 1)]"
+        ></div>
+        <div
+          class="page-dot"
+          :class="curPage === 'third' ? 'active' : ''"
+          @click="[(curPage = 'third'), (curIndex = 2)]"
+        ></div>
+      </div>
     </div>
   </div>
 </template>
@@ -296,13 +314,23 @@ export default {
       curIndex: 0,
       transformAmount: ["first", "second", "third"],
       curPage: "first",
+      autoPlay: true,
     };
   },
-
+  computed: {
+    imageUrl() {
+      const tmp = this.autoPlay
+        ? require("../assets/pause.png").default
+        : require("../assets/play.png").default;
+      return tmp;
+    },
+  },
   mounted() {
+    console.log(this.imageUrl);
+
     setInterval(() => {
-      this.changeSection();
-    }, 1000);
+      if (this.autoPlay) this.changeSection();
+    }, 4000);
   },
   methods: {
     changeSection() {
@@ -312,6 +340,9 @@ export default {
         this.curIndex = 0;
       }
       this.curPage = this.transformAmount[this.curIndex];
+    },
+    togglePlay() {
+      this.autoPlay = !this.autoPlay;
     },
   },
 };
@@ -329,7 +360,8 @@ export default {
   align-items: center;
   justify-content: center;
   .inner {
-    margin-top: 30px;
+    position: relative;
+    margin-top: 60px;
     height: 747px;
     width: 1080px;
     .section-top {
@@ -582,6 +614,38 @@ export default {
               }
             }
           }
+        }
+      }
+    }
+
+    .pagination {
+      position: absolute;
+      right: 0;
+      bottom: 0px;
+      width: 100px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      img {
+        margin: 0 5px 0 35px;
+        width: 12px;
+        height: 12px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .page-dot {
+        margin: 3px;
+        width: 8px;
+        height: 8px;
+        background-color: gray;
+        border: 1 soild black;
+        border-radius: 50%;
+        &:hover {
+          cursor: pointer;
+        }
+        &.active {
+          background-color: #0067ac;
         }
       }
     }
