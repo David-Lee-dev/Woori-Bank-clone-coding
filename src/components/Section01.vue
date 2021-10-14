@@ -69,13 +69,257 @@
           />
         </div>
       </div>
-      <div class="section-bottom"></div>
+      <div class="section-bottom">
+        <div id="container">
+          <div class="slide-wrap">
+            <div class="slide-box">
+              <div class="slide-list clearfix" :class="curPage">
+                <div class="slide-content slide01">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">입출금자유예금</p>
+                        <p class="big">더 마니 드림<br />저축예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>변동</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>0.60<span>%</span></li>
+                          <li>~</li>
+                          <li>1.00<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">입출금자유예금</p>
+                        <p class="big">첫번째 저축예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>변동</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>1.00<span>%</span></li>
+                          <li>~</li>
+                          <li>1.20<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">입출금자유예금</p>
+                        <p class="big">우리 기업 자유예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>변동</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>0.75<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">입출금자유예금</p>
+                        <p class="big">국민연금 안심통장</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>변동</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>0.60<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="slide-content slide02">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.20<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">회전정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.20<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">플러스 정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.20<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">더 마니 드림 정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>36개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>1.00<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="slide-content slide03">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.10<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">회전정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.90<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">플러스 정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.10<span>%</span></li>
+                          <li>~</li>
+                          <li>4.10<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <p class="small">목돈운용상품</p>
+                        <p class="big">더 마니 드림 정기예금</p>
+                        <ul class="rectangle">
+                          <li>연</li>
+                          <li>세전이율</li>
+                          <li>12개월 기준</li>
+                        </ul>
+                        <ul class="percentage">
+                          <li>2.60<span>%</span></li>
+                          <li>~</li>
+                          <li>3.60<span>%</span></li>
+                        </ul>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      curIndex: 0,
+      transformAmount: ["first", "second", "third"],
+      curPage: "first",
+    };
+  },
+
+  mounted() {
+    setInterval(() => {
+      this.changeSection();
+    }, 1000);
+  },
+  methods: {
+    changeSection() {
+      if (this.curIndex < 2) {
+        this.curIndex += 1;
+      } else {
+        this.curIndex = 0;
+      }
+      this.curPage = this.transformAmount[this.curIndex];
+    },
+  },
+};
+</script>
+
 <style lang="scss" scoped>
 .section-one {
+  font-family: "Noto Sans KR", sans-serif;
   background-image: url("https://www.woorisavingsbank.com/images/main/section01_bg01.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -102,7 +346,6 @@
           .title-upper {
             font-size: 45px;
             padding-bottom: 18px;
-            font-family: "IBM Plex Sans KR", sans-serif;
             font-weight: 500;
           }
           .title-lower-box {
@@ -134,8 +377,6 @@
           }
         }
         .info-box {
-          font-family: "Noto Sans KR", sans-serif;
-
           margin-top: 56px;
           height: 164px;
           p {
@@ -243,8 +484,106 @@
     }
     .section-bottom {
       margin-top: 73px;
-      background-color: darkmagenta;
       height: 300px;
+      overflow-x: hidden;
+      transition: all 0.5s;
+      .slide-wrap {
+        position: relative;
+        width: calc(1080px * 4);
+        margin: auto;
+        .slide-box {
+          width: 100%;
+          height: 300px;
+          margin: auto;
+          transition: 300ms;
+          .slide-list {
+            transition: 0.5s;
+            &.second {
+              transform: translateX(-1080px);
+            }
+            &.third {
+              transform: translateX(calc(-1080px * 2));
+            }
+            .slide-content {
+              display: flex;
+              justify-content: space-between;
+              float: left;
+              width: 1080px;
+              height: 300px;
+              > ul {
+                width: calc(1080px / 4 - 24px);
+                justify-content: space-between;
+                > li {
+                  width: calc(1080px / 4 - 24px);
+                  border-radius: 5px;
+                  height: 241px;
+                  background-color: white;
+                  > a {
+                    padding: 30px;
+                    box-sizing: border-box;
+                    display: block;
+                    text-decoration: none;
+                    .small {
+                      color: #000;
+                      font-size: 14px;
+                      font-weight: bold;
+                      padding-bottom: 5px;
+                      z-index: 1;
+                      position: relative;
+                    }
+                    .big {
+                      font-size: 22px;
+                      font-weight: bold;
+                      line-height: 1.2;
+                      color: #000;
+                      margin-top: 0;
+                      height: 52px;
+                    }
+                    .rectangle {
+                      display: flex;
+                      font-size: 14px;
+                      margin-top: 25px;
+                      line-height: 25px;
+                      li {
+                        margin-right: 3px;
+                        padding: 2px 4px;
+                        border-radius: 3px;
+                        &:nth-child(1) {
+                          border: 1px solid #6b6b6b;
+                          color: #6b6b6b;
+                        }
+                        &:nth-child(2) {
+                          border: 1px solid #3446f0;
+                          color: #3446f0;
+                        }
+                        &:nth-child(3) {
+                          border: 1px solid #2b9114;
+                          color: #2b9114;
+                        }
+                      }
+                    }
+                    .percentage {
+                      margin-top: 16px;
+                      font-weight: bold;
+                      li {
+                        font-size: 28px;
+                        color: #0067ac;
+                        display: inline-block;
+                        span {
+                          font-size: 15px;
+                        }
+                        &:nth-child(2) {
+                          font-size: 15px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

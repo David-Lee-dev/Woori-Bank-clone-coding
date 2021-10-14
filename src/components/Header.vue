@@ -16,7 +16,7 @@
           </li>
           <li>
             <a @click="showWholeMenu" href="#">
-              <img class="all-menu" src="../assets/menu.png" alt="" />
+              <img class="all-menu" src="../assets/menu.png" alt="MENU" />
             </a>
           </li>
         </ul>
