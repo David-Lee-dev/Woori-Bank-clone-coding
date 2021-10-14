@@ -51,16 +51,16 @@
 
 <style lang="scss" scoped>
 .bank-introduction {
-  letter-spacing: -1px;
-  word-spacing: -1px;
   display: flex;
   padding: 30px;
+  letter-spacing: -1px;
+  word-spacing: -1px;
   > div {
-    min-width: 180px;
+    min-width: 210px;
   }
   p {
-    font-size: 16px;
     font-weight: 600;
+    font-size: 16px;
     color: #0067ac;
     margin-bottom: 30px;
   }
@@ -68,8 +68,7 @@
     li {
       a {
         color: black;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 13px;
         text-decoration: none;
         &:hover {
           text-decoration: underline;

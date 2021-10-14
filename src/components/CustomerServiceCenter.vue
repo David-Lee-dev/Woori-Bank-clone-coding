@@ -87,8 +87,7 @@
     li {
       a {
         color: black;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 13px;
         text-decoration: none;
         &:hover {
           text-decoration: underline;

@@ -22,7 +22,7 @@
         </ul>
       </div>
       <div class="whole-menu">
-        <WholeMenu v-if="clickMenu" />
+        <WholeMenu v-if="clickMenu" v-on:clickClose="showWholeMenu" />
       </div>
     </div>
   </header>

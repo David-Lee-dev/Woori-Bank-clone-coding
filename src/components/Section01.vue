@@ -286,7 +286,7 @@
         </div>
       </div>
       <div class="pagination">
-        <img v-bind:src="imageUrl" @click="togglePlay" />
+        <img v-bind:src="imageUrl" @click="autoPlay = !autoPlay" />
         <div
           class="page-dot"
           :class="curPage === 'first' ? 'active' : ''"
@@ -340,9 +340,6 @@ export default {
         this.curIndex = 0;
       }
       this.curPage = this.transformAmount[this.curIndex];
-    },
-    togglePlay() {
-      this.autoPlay = !this.autoPlay;
     },
   },
 };

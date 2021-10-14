@@ -18,7 +18,9 @@
       <Introduction v-if="hover_menu === '저축은행소개'" />
       <CustomerServiceCenter v-if="hover_menu === '고객센터'" />
     </div>
-    <div class="close">전체 메뉴 닫기</div>
+    <div class="close">
+      <div class="close-btn" @click="clickClose">전체메뉴 닫기</div>
+    </div>
   </div>
 </template>
 
@@ -51,12 +53,16 @@ export default {
     mouseOn(key) {
       this.hover_menu = key;
     },
+    clickClose() {
+      this.$emit("clickClose");
+    },
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .whole-menu {
+  font-family: "Noto Sans KR", sans-serif;
   .menu {
     height: 60px;
     background-color: #0067ac;
@@ -64,7 +70,7 @@ export default {
     ul {
       display: flex;
       font-size: 18px;
-      font-weight: bold;
+      font-weight: 600;
       padding: 0 30px;
       li {
         color: white;
@@ -84,8 +90,23 @@ export default {
     background-color: white;
   }
   .close {
-    height: 60px;
-    background-color: orange;
+    height: 58px;
+    background-color: #f2f2f2;
+    width: 100%;
+    &:hover {
+      cursor: pointer;
+    }
+    .close-btn {
+      float: right;
+      padding-right: 75px;
+      line-height: 58px;
+      color: #002157;
+      font-size: 17px;
+      font-weight: 600;
+      background-image: url("https://www.woorisavingsbank.com/images/common/menuClose.jpg");
+      background-repeat: no-repeat;
+      background-position-x: right;
+    }
   }
 }
 </style>

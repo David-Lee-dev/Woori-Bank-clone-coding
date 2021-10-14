@@ -68,8 +68,8 @@
     min-width: 210px;
   }
   p {
-    font-size: 16px;
     font-weight: 600;
+    font-size: 16px;
     color: #0067ac;
     margin-bottom: 30px;
   }
@@ -77,8 +77,7 @@
     li {
       a {
         color: black;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 13px;
         text-decoration: none;
         &:hover {
           text-decoration: underline;
