@@ -56,6 +56,7 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  font-family: "Noto Sans KR", sans-serif;
   z-index: 3;
   position: fixed;
   top: 0;

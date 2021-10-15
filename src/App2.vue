@@ -1,12 +1,12 @@
 <template>
-  <Section01 />
+  <Section02 />
 </template>
 
 <script>
-import Section01 from "~/components/Section01";
+import Section02 from "~/components/Section02";
 export default {
   components: {
-    Section01,
+    Section02,
   },
 };
 </script>
