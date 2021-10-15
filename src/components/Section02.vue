@@ -327,8 +327,7 @@ export default {
     }
     .section-bottom {
       width: 100%;
-      //지우기
-      height: 300px;
+
       margin-top: 78px;
       overflow-x: hidden;
       .slide-wrap {
