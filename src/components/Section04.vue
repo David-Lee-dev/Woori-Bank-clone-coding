@@ -1,5 +1,5 @@
 <template>
-  <div class="section-three">
+  <div class="section-four">
     <div class="inner">
       <div class="section-top">
         <div class="image-box">
@@ -73,7 +73,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.section-three {
+.section-four {
   font-family: "Noto Sans KR", sans-serif;
   height: 941px;
   display: flex;
@@ -83,9 +83,7 @@ export default {
   .inner {
     margin-top: 130px;
     width: 1080px;
-    height: 700px;
     .section-top {
-      //지워
       width: 100%;
       height: 384px;
       position: relative;
