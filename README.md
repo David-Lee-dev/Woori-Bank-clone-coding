@@ -1,29 +1,46 @@
-# Webpack 기본 템플릿
+<div align="center">
+  <br />
+    <img src=".\README.assets\다운로드.png" alt="우리은행" height="150px" />
+  <h1>우리은행 웹사이트</h1>
+  <br />
+</div>
 
-__webpack__: 모듈(패키지) 번들러의 핵심 패키지<br>
-__webpack-cli__: 터미널에서 Webpack 명령(CLI)을 사용할 수 있음<br>
-__webpack-dev-server__: 개발용으로 Live Server를 실행(HMR)<br>
 
-__html-webpack-plugin__: 최초 실행될 HTML 파일(템플릿)을 연결<br>
-__copy-webpack-plugin__: 정적 파일(파비콘, 이미지 등)을 제품(`dist`) 폴더로 복사<br>
 
-__sass-loader__: SCSS(Sass) 파일을 로드<br>
-__postcss-loader__: PostCSS(Autoprefixer)로 스타일 파일을 처리<br>
-__css-loader__: CSS 파일을 로드<br>
-__style-loader__: 로드된 스타일(CSS)을 `<style>`로 `<head>`에 삽입<br>
-__babel-loader__: JS 파일을 로드<br>
 
-__@babel/core__: ES6 이상의 코드를 ES5 이하 버전으로 변환<br>
-__@babel/preset-env__: Babel 지원 스펙을 지정<br>
-__@babel/plugin-transform-runtime__: Async/Await 문법 지원<br>
 
-__sass__: SCSS(Sass) 문법을 해석(스타일 전처리기)<br>
-__postcss__: Autoprefixer 등의 다양한 스타일 후처리기 패키지<br>
-__autoprefixer__: 스타일에 자동으로 공급 업체 접두사(Vendor prefix)를 적용하는 PostCSS의 플러그인<br> 
+##  1. 개요
 
-## 주의사항!
+우리 은행 웹사이트 클론 코딩
 
-- `npm i -D webpack-dev-server@next`로 설치(webpack-cli 버전(@4^)과 일치)!<br>
-- `package.json` 옵션으로 `browserslist` 추가!<br>
-- `.postcssrc.js` 생성(PostCSS 구성 옵션)!<br>
-- `.babelrc.js` 생성(Babel 구성 옵션)!<br>
+> [참고 사이트](https://www.woorisavingsbank.com/main/main.do#none)
+
+<br /><br />
+
+## 2. 기술 스택
+
+- ![](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=white) 
+
+- ![](https://img.shields.io/badge/CSS-1572B6?&logo=css3&logoColor=white) 
+
+- ![](https://img.shields.io/badge/-HTML5-E34F26?&logo=html5&logoColor=white) 
+
+- ![](https://img.shields.io/badge/-Vue.js-4FC08D?&logo=vue.js&logoColor=white) 
+
+- ![](https://img.shields.io/badge/-Weppack-8DD6F9?&logo=webpack&logoColor=white) 
+
+  
+
+<br /><br />
+
+## 3.  라이브러리
+
+## ![](https://img.shields.io/badge/-fullscreen.js-orange?&logo=javascript&logoColor=white) 
+
+<br /><br />
+
+## 4. 주요 페이지
+
+|                         메인 페이지                          |
+| :----------------------------------------------------------: |
+| ![image-20211023115143280](README.assets/ezgif.com-gif-maker.gif) |
